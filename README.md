@@ -90,23 +90,6 @@ uv run uvicorn api.main:app --port 8080 --reload
 http://localhost:8080
 ```
 
-界面预览：
-
-<img src="docs/static/images/img_8.png" alt="ContentRadar WebUI 预览">
-
-### 5. 多种数据保存方式
-
-ContentRadar 支持把采集结果保存为：
-
-- CSV；
-- JSON；
-- JSONL；
-- Excel；
-- SQLite；
-- MySQL。
-
-更详细的存储配置可以查看：[数据存储指南](docs/data_storage_guide.md)。
-
 ---
 
 ## 技术原理
