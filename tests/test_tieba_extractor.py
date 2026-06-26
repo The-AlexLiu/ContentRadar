@@ -34,7 +34,7 @@ def test_extract_search_note_list_from_current_pc_card_page():
           </div>
           <div class="top-title">
             <span class="forum-attention user">754023117</span>
-            <span>发布于 2026-3-15</span>
+            <span>发布于 2024-3-15</span>
           </div>
           <div class="title-wrap"><span>数，英，编程老师</span></div>
           <div class="abstract-wrap">
@@ -57,7 +57,7 @@ def test_extract_search_note_list_from_current_pc_card_page():
     assert notes[0].tieba_name == "诸城吧"
     assert notes[0].tieba_link.endswith("kw=%E8%AF%B8%E5%9F%8E")
     assert notes[0].user_nickname == "754023117"
-    assert notes[0].publish_time == "2026-3-15"
+    assert notes[0].publish_time == "2024-3-15"
     assert notes[0].total_replay_num == 19
 
 

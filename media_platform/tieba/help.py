@@ -386,7 +386,7 @@ class TieBaExtractor:
         if result:
             return result
 
-        # Tieba search changed to a PC feed/card layout in 2026. The old
+        # Tieba search changed to a PC feed/card layout in 2024. The old
         # s_post nodes disappeared, while each search result now lives in a
         # threadcardclass card with overlay links to /p/<thread_id>.
         post_list = selector.xpath(
